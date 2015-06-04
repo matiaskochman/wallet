@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_wallet_entity_Wallet" modelAttribute="wallet" path="/wallets" versionField="Version" z="SoIcmzHB3VK4qMeFez8AwFBF+sA=">
+        <field:input field="availableMoney" id="c_com_wallet_entity_Wallet_availableMoney" validationMessageCode="field_invalid_number" z="2jqPauMydgO7/7uMHwP8PiceVRE="/>
+    </form:update>
+</div>

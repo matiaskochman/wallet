@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_wallet_entity_Wallet" items="${wallets}" z="TYHlzrLqAFc7UM2nfyIkN2MDsjg=">
+        <table:table data="${wallets}" id="l_com_wallet_entity_Wallet" path="/wallets" z="WTYGfeXY+SxIIg7v3J0Qpqso7Q0=">
+            <table:column id="c_com_wallet_entity_Wallet_availableMoney" property="availableMoney" z="6D5N1VnIN7R6/NbaNvHA9Z/sBOs="/>
+        </table:table>
+    </page:list>
+</div>
